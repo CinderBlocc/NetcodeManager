@@ -17,7 +17,7 @@ NetcodeManager::NetcodeManager
 }
 
 // Message Sending //
-void NetcodeManager::SendMessage(const std::string& InMessage)
+void NetcodeManager::SendNewMessage(const std::string& InMessage)
 {
     if(!CheckIfGood(__FUNCTION__)) { return; }
     

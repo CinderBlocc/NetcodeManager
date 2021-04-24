@@ -34,7 +34,7 @@ public:
     // NOTE: Message cannot be longer than 122 characters minus the length of the plugin's class name.
     // Messages are limited to 128 characters total, and all messages have the following prefix: [PC][ClassName]
     // PC (or PH) is internal info for NetcodePlugin's replication, and ClassName indicates that clients of this plugin should handle the message.
-    void SendMessage(const std::string& InMessage);
+    void SendNewMessage(const std::string& InMessage);
 
 
 
